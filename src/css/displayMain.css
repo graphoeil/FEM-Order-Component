@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('reset.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/* /////////////////////////////// */
+/*               BODY              */
+/* /////////////////////////////// */
+body,html{ -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; height: 100%; 
+	background-color: var(--paleBlue); font-family: var(--redHat); }
+#root{ height: 100%; }
+*{ box-sizing: border-box; text-decoration: none; outline: none; }
+
+/* /////////////////////////////// */
+/*           FONTS & COLORS        */
+/* /////////////////////////////// */
+:root{
+	/* Fonts */
+	--redHat:'Red Hat Display', sans-serif;
+	/* Colors */
+	--paleBlue:hsl(225, 100%, 94%);
+	--brightBlue:hsl(245, 75%, 52%);
+	--veryPaleBlue:hsl(225, 100%, 98%);
+	--desaturateBlue:hsl(224, 23%, 55%);
+	--darkBlue:hsl(223, 47%, 23%);
+	--hover:#766cf1;
+}
